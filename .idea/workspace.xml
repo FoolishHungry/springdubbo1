@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1547e489-6894-4be0-a3ba-6eab454b8d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/quickstart/QuickstartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/applicationContext-hello-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/applicationContext-hello-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/applicationContext-hello-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/applicationContext-hello-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/applicationContext-hello-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/applicationContext-hello-provider.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,17 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/applicationContext-hello-consumer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-368" />
+            <state relative-caret-position="336">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/ConsumerClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="450">
               <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/quickstart/QuickstartService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -52,15 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider/src/main/resources/applicationContext-hello-provider.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360" />
+            <state relative-caret-position="82">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="58" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/ProviderClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="120">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +87,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/quickstart/QuickStartServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="210">
               <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
               <folding>
                 <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +130,8 @@
         <option value="$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/quickstart/QuickStartServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/ProviderClient.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/ConsumerClient.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/resources/applicationContext-hello-provider.xml" />
+        <option value="$PROJECT_DIR$/consumer/src/main/resources/applicationContext-hello-consumer.xml" />
       </list>
     </option>
   </component>
@@ -145,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,13 +256,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551876631275" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552030056832" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -324,18 +334,19 @@
       <option name="presentableId" value="Default" />
       <updated>1551778951105</updated>
       <workItem from="1551778954925" duration="3367000" />
-      <workItem from="1551860922696" duration="5146000" />
+      <workItem from="1551860922696" duration="5906000" />
+      <workItem from="1552027587743" duration="2223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8513000" />
+    <option name="totallyTimeSpent" value="11496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -378,18 +389,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/App.java" />
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/ServiceAPI.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/ServiceAPI.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -400,41 +402,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/quickstart/QuickStartServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="210">
           <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding>
             <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/applicationContext-hello-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/ServiceAPI.java">
+    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/applicationContext-hello-consumer.xml">
+    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/quickstart/QuickstartService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368" />
+        <state relative-caret-position="60">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zjc/dubbo/ProviderClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/applicationContext-hello-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/ConsumerClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="450">
           <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -442,10 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zjc/dubbo/quickstart/QuickstartService.java">
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/applicationContext-hello-consumer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="336">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
