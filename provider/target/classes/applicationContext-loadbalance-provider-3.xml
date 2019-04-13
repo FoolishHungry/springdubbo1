@@ -18,7 +18,7 @@
 	<dubbo:application name="hello-world-app" />
 
 	<!-- 用dubbo协议在20880端口暴露服务 -->
-	<dubbo:protocol name="dubbo" port="20880" />
+	<dubbo:protocol name="dubbo" port="20883" />
 
 	<!-- 使用zookeeper进行注册中心化 -->
 	<dubbo:registry address="zookeeper://localhost:2181"/>
@@ -28,10 +28,9 @@
 
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service
-			timeout="10000"
-			async="true"
 			interface="com.zjc.dubbo.ServiceAPI"
-			ref="quickStartService" />
+			ref="quickStartService"
+			loadbalance="roundrobin"/>
 
 	<!-- registry="N/A" -->
 </beans>
